@@ -1,0 +1,118 @@
+body{
+
+    background-color: #E0F4FC; 
+    height: 100%; 
+    position: relative;
+}
+header{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.overlay-container{
+    visibility: hidden;
+}
+
+.bg-layer{
+    visibility: hidden;
+}
+
+.content{
+
+}
+
+.content-container{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.heading-upper{
+    /*border-bottom: 2px solid #B1E3FA;*/
+    margin-bottom: 15px;
+}
+
+.heading-upper p{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.logo-name{
+    color: #25AAE1;
+}
+
+.logo-name:hover {
+    text-decoration: underline;
+    color: #25AAE1;
+    /*color: #063CA5;*/
+}
+
+.logo-name h1{
+    font-size: 42px;
+    padding: 0;
+}
+
+.nav-upper-space{
+    position: relative;
+    min-height: 35px;
+}
+
+.nav-upper{
+    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+}
+
+#nav1-list{ 
+    display: inline-block;
+    list-style: none;
+    float: right;
+}
+
+#nav1-list li{
+    display: inline;
+}
+
+#nav2-list{
+    display: inline-block;
+    list-style: none;
+    float: right;
+}
+
+#nav2-list li{
+    display: inline;
+}
+
+
+
+.hide-mobile{
+
+}
+
+.vertical-space{
+    
+}
+
+.page-content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2B527B; /*23527B*/
+    /*font-weight: ;*/
+}
+
+.page-content p{
+    margin: 0 0 16px;
+}
+
+.name {
+    font-size: 18px;
+    color: #25AAE1;
+}
+
+footer {
+    margin-top: 120px;
+    min-height: 120px;
+}
+.copyright-footnote {
+    text-align: left;
+}
