@@ -63,24 +63,50 @@ header{
     right: 10px;
 }
 
-#nav1-list{ 
+.nav1-list{ 
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+
+.nav1-list li{
+    display: inline;
+}
+/*
+    RENAME THE DAMN NAVS
+*/
+
+.nav2-list{
     display: inline-block;
     list-style: none;
     float: right;
 }
 
-#nav1-list li{
-    display: inline;
-}
-
-#nav2-list{
+.nav2-list li{
     display: inline-block;
-    list-style: none;
-    float: right;
+    float: left;
+    
+
 }
 
-#nav2-list li{
-    display: inline;
+.nav2-list li a{
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+    height: 31px;
+    width: 31px;
+
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.social-nav{
+    /*needed?*/
 }
 
 
@@ -107,6 +133,7 @@ header{
 .name {
     font-size: 18px;
     color: #25AAE1;
+    /*text-decoration: underline;*/
 }
 
 footer {
