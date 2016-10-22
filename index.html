@@ -18,22 +18,25 @@
   </head>
 
   <body>
-    <div class="container-fluid bg-layer">
+    <div class="container-fluid bg-layer"> <!-- WRAPPERS. ALL THESE. CONTAINER WITHIN. MOVE TO BOTTOM. -->
     </div>
-    <div class="container-fluid overlay-container">
+    <div class="container-fluid overlay-container"><!-- FIX with rel inside -->
     </div>
     
-    <div class="container content-container">
-    	
-    	<header>
+    <div class="container content-container"><!-- PAGE CONTENT -->
+    
+    <!-- CONTENT-WRAPPER or PAGE-WRAPPER-->
+    	<header> <!-- CONTAINER!! -->
         	<div class="row heading-upper">
         	   <div class="col-md-4 col-md-offset-1">
                     <a href="#" class="logo-name"><img src="images/erb_a_block_icon-30p.png" alt="Andrew Erb"></a>
                </div>
                
         	</div>
-
-            <div class="row sub-heading">
+            
+            <!-- NAV ROW 1 - along same row as logo? (upper heading) -->
+            <!-- NAV ROW 2 -->
+            <div class="row sub-heading hide hidden">
                 <div class="col-md-offset-7 col-md-4 nav2">
                     <ul class="social-nav nav2-list">
                         <li>
@@ -43,7 +46,7 @@
                             <a href="https://www.linkedin.com/in/erbandrew"><i class="fa fa-linkedin fa-lg"></i></a>
                         </li>
                         <li>
-                            <a href="mailto:hello@andrewerb.com"><i class="fa fa-envelope fa-lg"></i></a>
+                            <a href="mailto:hello@andrewerb.com"><i class="fa fa-envelope fa-md"></i></a>
                         </li>
                         <li>
                             <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a> <!--additional 1 - 2 pixel nudge -->
@@ -53,24 +56,46 @@
                 </div>
             </div>
     	</header>
+        
 
-        <div class="row page-content"> <!-- ANIMATE ALL DIS -->
-            <div class="col-md-6 col-md-offset-1">
+        <!-- PAGE CONTENT SHOULD BE A CONTAINER, THEN KEEP THE ROWS AS IS -->
+        <div class="row page-content"> <!-- MAIN CONTENT? --> <!-- ANIMATE ALL DIS --> <!--CONTAINER INSTEAD OF ROW!!!! FOR TEMPLATING--> <!-- MAIN CONTENT -->
+            <!-- BRANCH -->
+            <div class="col-md-6 col-md-offset-1 top-buffer-35">
 
-                <p><a href="#"><span class="name">Andrew Erb</span></a> is a developer and designer, based in NYC.</p>
+                <p><a href="#"><span class="name">Andrew Erb</span></a> is a developer and designer based in <a href="https://youtu.be/8LmPBPWHJu4">NYC</a>.</p>
 
-                <p>Feel free to <span>get in touch</span>.</p>
+                <p>Feel free to <span>get in touch</span>. <i class="fa fa-smile-o fa-sm"></i></p>
 
                 <p>Email: <br />
                 <a href="mailto:hello@andrewerb.com">hello [at] Andrew Erb.com</a></p>
             </div>
+
+            <!-- other nav row here - as container -->
             
         </div>
-        <div class="row">
-            
+        <div class="row top-buffer-35">
+            <div class="clear-fix col-md-offset-1 col-md-4 nav2">
+                    <ul class="social-nav nav2-list">
+                        <li>
+                            <a href="https://www.github.com/andrewerb"><i class="fa fa-github fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/erbandrew"><i class="fa fa-linkedin fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:hello@andrewerb.com"><i class="fa fa-envelope fa-md"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a> <!--additional 1 - 2 pixel nudge -->
+                        </li>
+                    </ul>
+                    
+                </div>
         </div>
+        
     	
-        <footer>
+        <footer> <!-- CONTAINER!! -->
             <div class="row">
                 <div class="copyright-footnote col-md-5 col-md-offset-1">
                     <p>Content © Andrew Erb unless otherwise stated</p>

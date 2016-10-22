@@ -1,3 +1,4 @@
+/*** CSS ***/
 body{
 
     background-color: #E0F4FC; 
@@ -7,6 +8,22 @@ body{
 header{
     margin-top: 70px;
     margin-bottom: 50px;
+}
+
+a{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.top-buffer{
+    margin-top: 20px;
+}
+
+.top-buffer-35{
+    margin-top: 35px;
 }
 
 .overlay-container{
@@ -79,7 +96,7 @@ header{
 .nav2-list{
     display: inline-block;
     list-style: none;
-    float: right;
+    /*float: right;*/
 }
 
 .nav2-list li{
@@ -89,26 +106,71 @@ header{
 
 }
 
-.nav2-list li a{
+.social-nav li a{
     display: inline-block;
+    text-decoration: none;
     float: left;
     margin: 0 10px;
     height: 31px;
     width: 31px;
+    background-color: #25AAE1;
+    color: #E0F4FC;
 
-    border-width: 2px;
+    border-width: 0;/*2px;*/
     border-style: solid;
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    
     text-align: center;
-    padding-top: 2px;
+    padding-top: 4px;
+
+}
+
+.social-nav li a:hover{
+    background-color: #1B4D68;
+    width: 35px;
+    height: 35px;
+    padding-top: 6px;
+    margin: 0 8px;
+    margin-top: -2px;
 }
 
 .social-nav{
-    /*needed?*/
+    margin: 0;
+    padding: 0;
+    min-height: 35px;
 }
 
+.social-nav li:first-of-type a{
+    margin-left: 0;
+}
+
+.social-nav li:first-of-type a:hover{
+    margin-left: -2px;
+    /*margin-right: 6px;*/
+}
+
+.social-nav .fa-github {
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.social-nav .fa-linkedin {
+    margin-left: 1px;
+    margin-top: 2px;
+}
+
+.social-nav .fa-envelope {
+    margin-left: 1px;
+    margin-top: 4px;
+}
+
+.social-nav .fa-twitter {
+    margin-left: 2px;
+    margin-top: 6px;
+}
 
 
 .hide-mobile{
@@ -137,9 +199,10 @@ header{
 }
 
 footer {
-    margin-top: 120px;
-    min-height: 120px;
+    margin-top: 80px;
+    min-height: 20px; /*120px*/
 }
 .copyright-footnote {
     text-align: left;
+    font-size: 13px;
 }
