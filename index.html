@@ -14,19 +14,19 @@
 
     <script src="libs/angular/angular.min.js"></script>
     <script src="https://use.fontawesome.com/6deec63a39.js"></script>
+    <script src="/js/autocomplete.js"></script>
     
   </head>
 
   <body>
-    <div class="container-fluid bg-layer"> <!-- WRAPPERS. ALL THESE. CONTAINER WITHIN. MOVE TO BOTTOM. -->
+    <div class="container-fluid bg-layer">
     </div>
-    <div class="container-fluid overlay-container"><!-- FIX with rel inside -->
+    <div class="container-fluid overlay-container">
     </div>
     
-    <div class="container content-container"><!-- PAGE CONTENT -->
+    <div class="container content-container">
     
-    <!-- CONTENT-WRAPPER or PAGE-WRAPPER-->
-    	<header> <!-- CONTAINER!! -->
+    	<header>
         	<div class="row heading-upper">
         	   <div class="col-md-4 col-md-offset-1">
                     <a href="#" class="logo-name"><img src="images/erb_a_block_icon-30p.png" alt="Andrew Erb"></a>
@@ -34,8 +34,6 @@
                
         	</div>
             
-            <!-- NAV ROW 1 - along same row as logo? (upper heading) -->
-            <!-- NAV ROW 2 -->
             <div class="row sub-heading hide hidden">
                 <div class="col-md-offset-7 col-md-4 nav2">
                     <ul class="social-nav nav2-list">
@@ -49,7 +47,7 @@
                             <a href="mailto:hello@andrewerb.com"><i class="fa fa-envelope fa-md"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a> <!--additional 1 - 2 pixel nudge -->
+                            <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a>
                         </li>
                     </ul>
                     
@@ -58,9 +56,7 @@
     	</header>
         
 
-        <!-- PAGE CONTENT SHOULD BE A CONTAINER, THEN KEEP THE ROWS AS IS -->
-        <div class="row page-content"> <!-- MAIN CONTENT? --> <!-- ANIMATE ALL DIS --> <!--CONTAINER INSTEAD OF ROW!!!! FOR TEMPLATING--> <!-- MAIN CONTENT -->
-            <!-- BRANCH -->
+        <div class="row page-content">
             <div class="col-md-6 col-md-offset-1 top-buffer-35">
 
                 <p><a href="#"><span class="name">Andrew Erb</span></a> is a developer and designer based in <a href="https://youtu.be/8LmPBPWHJu4">NYC</a>.</p>
@@ -70,10 +66,9 @@
                 <p>Email: <br />
                 <a href="mailto:hello@andrewerb.com">hello [at] Andrew Erb.com</a></p>
             </div>
-
-            <!-- other nav row here - as container -->
-            
+        
         </div>
+
         <div class="row top-buffer-35">
             <div class="clear-fix col-md-offset-1 col-md-4 nav2">
                     <ul class="social-nav nav2-list">
@@ -87,7 +82,7 @@
                             <a href="mailto:hello@andrewerb.com"><i class="fa fa-envelope fa-md"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a> <!--additional 1 - 2 pixel nudge -->
+                            <a href="https://www.twitter.com/_andrewerb"><i class="fa fa-twitter fa-lg"></i></a>
                         </li>
                     </ul>
                     
@@ -95,7 +90,7 @@
         </div>
         
     	
-        <footer> <!-- CONTAINER!! -->
+        <footer>
             <div class="row">
                 <div class="copyright-footnote col-md-5 col-md-offset-1">
                     <p>Content © Andrew Erb unless otherwise stated</p>
@@ -107,10 +102,7 @@
     </div>
     
 
-    <!--Gotta find my Google Analytics...-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
