@@ -1,0 +1,11 @@
+/* Humans.txt */
+
+	Made by Andrew Erb
+	@_andrewerb
+	hello [at] andrewerb.com
+	
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text, Adobe Illustrator
+	Resources: Twiter Bootstrap, Font Awesome, Google Font API, GitHub Pages
