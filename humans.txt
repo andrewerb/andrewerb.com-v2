@@ -1,11 +1,32 @@
 /* Humans.txt */
 
-	Made by Andrew Erb
-	@_andrewerb
-	hello [at] andrewerb.com
+/* TEAM */
+	Author/Dev: Andrew Erb
+	Twitter: @_andrewerb
+	Site: This one! ;)
+	email: hello [at] andrewerb.com
+	Github: github.com/andrewerb
+	LinkedIn: linkedin.com/in/erbandrew
+	Location: NYC, US
 	
 /* SITE */
+	Updated: 03/27/2017 (Maybe more recently! IDK...check my github)
 	Language: English
 	Doctype: HTML5
 	IDE: Sublime Text, Adobe Illustrator
-	Resources: Twiter Bootstrap, Font Awesome, Google Font API, GitHub Pages
+	Standards: HTML5, CSS3, ES5, Python 2.7
+	Components: Twiter Bootstrap, Font Awesome, AngularJS
+	Software: Sublime Text, Vim, Git, iterm2, Zsh, Google Chrome, MacOS
+	Resources: Google Analutics, Google Font API, Hyde, Gulp
+	Hosting: GitHub Pages
+
+/* THANKS */
+	Tim Berners-Lee
+	Google
+	Github
+	Twitter
+	Neopets - that HTML4 tutorial was nice to have in 2002
+
+
+"Sucking at something is the first step to becoming sorta good at something" - Jake the Dog
+
