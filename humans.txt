@@ -17,7 +17,7 @@
 	Standards: HTML5, CSS3, ES5, Python 2.7
 	Components: Twiter Bootstrap, Font Awesome, AngularJS
 	Software: Sublime Text, Vim, Git, iterm2, Zsh, Google Chrome, MacOS
-	Resources: Google Analutics, Google Font API, Hyde, Gulp
+	Resources: Google Analytics, Google Font API, Hyde, Gulp
 	Hosting: GitHub Pages
 
 /* THANKS */
