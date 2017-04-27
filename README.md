@@ -1,14 +1,9 @@
-andrewerb.github.io
+andrewerb.com
+===================
 
-Personal site for Andrew Erb
+My personal site
+andrewerb.github.io or www.andrewerb.com
 
-www.andrewerb.com
+Hosted on Github pages! (If that wasn't obvious). Currently maintained in Bootstrap 3.
 
-alternatively, andrewerb.github.io
-
-Hosted on Github pages! (If that wasn't obvious)
-
-
-
-Currently maintained in Bootstrap 3
-
+I'm often working on it, so changes are likely to come.
