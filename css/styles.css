@@ -1,7 +1,8 @@
 /*** CSS ***/
+/** Main/general **/
 body{
 
-    background-color: #E0F4FC; 
+    background-color: #E1F5FE; 
     height: 100%; 
     position: relative;
 }
@@ -198,6 +199,7 @@ a{
     /*text-decoration: underline;*/
 }
 
+/** Footer **/
 footer {
     margin-top: 80px;
     min-height: 20px; /*120px*/
