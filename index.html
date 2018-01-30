@@ -9,12 +9,18 @@
 
     <title>Andrew Erb</title>
     <style>
-        .logo-link{
+        body {
+            background-color: #E1F5FE; /*B3E5FC*/
+            color: #2B527B;
+        }
+        .logo-link {
             display: block;
             height: 90px;
             width: 90px;
             background-image: url("/images/erb_a_block_logo.svg");
             background-size: 100% 100%;
+
+        /* scss in page content, container, row, first of type .col = style of offset */
         }
     </style>
 </head>
@@ -37,11 +43,11 @@
                 </div>
                 
                 <div class="row nav-space">
-                    <div class="col-2">
+                    <div class="col-2 offset-1">
                         <p>Row min height. + Padding. ! Column padding ?</p>
                         <p>Height padding / filler space. Class of padding top on this row?</p>
                     </div>
-                    <div class="col-5 offset-5">
+                    <div class="col-5 offset-2">
                          d-sm-none
                          <nav>Gome. About. Contact. Blog. Projects.</nav>
                         <nav>Nav goes here</nav>
@@ -66,7 +72,9 @@
         <footer> <!-- section for rows vs section for containers ; likely doing containers ;; hyde blog section + article + ?? -->
             <section class="container">
                 <div class="row">
-                    <div class="col"></div>
+                    <div class="col offset-1">
+                        <p>Copyright me and stuff.</p>
+                    </div>
                 </div>
             </section>
         </footer>
