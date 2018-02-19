@@ -9,4 +9,4 @@ Hosted on Github pages, maintained in Boostrap 4.
 
 Static site generator.
 SCSS revisions.
-Migrating blog to Github pages.
+Blog migration to Github pages.
