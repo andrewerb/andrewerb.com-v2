@@ -6,4 +6,4 @@
     <path class="shadow_blue" id="lower_border" fill="#1B4D68" d="M320 19.927v300H0v-20L300 300l-.001-280.073z"/>
     <path class="shadow_blue" id="shadow_bolts" fill="#1B4D68" d="M40 40h20v20H40zm0 220h20v20H40zM260 40h20v20h-20zm0 220h20v20h-20zm-40-140.073V80.302H120v39.625h-20v139.625h40v-59.625h60v59.625h40V119.927h-20zm-20 60h-60v-60h60v60z"/>
     <path class="logo_blue" id="foreground_a" fill="#61A8E1" d="M200 100V60.375H100V100H80v139.625h40V180h60v59.625h40V100h-20zm-20 60h-60v-60h60v60z"/>
-</svg>
+  </svg>
