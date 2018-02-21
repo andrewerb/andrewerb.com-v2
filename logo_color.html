@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <Style>
+        /*
+            foreground: #25AAE1
+            dark-hover: #1B4D68
+            page-content text: #2B527B
+        */
+        /*** SVG logo styles ***/
+        #logo-svg {
+            /*height: 64px;*/
+            
+        }
+        svg-link svg {
+            background-color: #333;
+        }
+        .svg-link:hover svg .logo_blue{
+            /*fill: #333;*/
+        }
+    </Style>
+</head>
+<body>
+    <div class="animated fadeIn">
+        <p>
+            Testing fadeIn!!
+        </p>
+        <a href="#" class="svg-link">
+            <svg id="logo-svg" xmlns="http://www.w3.org/2000/svg" width="320" height="320">
+                <path class="light_bg_blue" id="box_bg" fill="#BEE2FA" d="M20 20h280v280H20z" />
+                <path class="logo_blue" id="upper_border" fill="#61A8E1" d="M20 0h280v20H20zM0 20h20v280H0z" />
+                <path class="shadow_blue" id="lower_border" fill="#1B4D68" d="M320 19.927v300H0v-20L300 300l-.001-280.073z" />
+                <path class="shadow_blue" id="shadow_bolts" fill="#1B4D68" d="M40 40h20v20H40zm0 220h20v20H40zM260 40h20v20h-20zm0 220h20v20h-20zm-40-140.073V80.302H120v39.625h-20v139.625h40v-59.625h60v59.625h40V119.927h-20zm-20 60h-60v-60h60v60z"
+                />
+                <path class="logo_blue" id="foreground_a" fill="#61A8E1" d="M200 100V60.375H100V100H80v139.625h40V180h60v59.625h40V100h-20zm-20 60h-60v-60h60v60z"
+                />
+            </svg>
+        </a>
+    </div>
+    <!--<svg src="/img/logo/erb_a_block_logo.svg" alt=""></svg>-->
+    <h3>Color notes</h3>
+    <p>
+        For Mario-ish block: 3 states: neutral (light bg), mid/darker, darkest (same as upper/left border). Only BG changes.
+    </p>
+    <p>
+        For non-block logo: consider changing A-color but leave shadow as is.
+    </p>
+    <p>
+        Alternatively: Fade in block on hover (delayed fade-out), cycle animation therein. No tap behavior. Offset margin for A alignmnet because SVG. Can hide SVG.
+    </p>
+</body>
+</html>
