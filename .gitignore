@@ -8,6 +8,8 @@
 ehthumbs.db
 Thumbs.db
 
+node_modules
+
 # Junk I leave around #
 #######################
 junk
