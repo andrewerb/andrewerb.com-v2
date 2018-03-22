@@ -1,0 +1,39 @@
+{
+  "name": "andrewerb.com",
+  "version": "2.0.0",
+  "description": "Andrew Erb's official website",
+  "main": "index",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8080",
+    "build": "echo \"Build tools need to be specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewerb/andrewerb.github.io.git"
+  },
+  "keywords": [
+    "Andrew",
+    "Erb"
+  ],
+  "author": {
+    "name": "Andrew Erb",
+    "email": "andrew@andrewerb.com",
+    "url": "http://www.andrewerb.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewerb/andrewerb.github.io/issues"
+  },
+  "homepage": "https://github.com/andrewerb/andrewerb.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "bootstrap": "^4.0.0"
+  }
+}
