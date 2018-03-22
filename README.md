@@ -17,7 +17,7 @@ This build is currently ongoing and in development. Stay tuned.
 - Better build process.
 - SVG failover.
 - Blog migration to Github pages.
-- Better package management.
+- Better package management & environment setup.
 - All around nicer looking site and stuff. :sunglasses:
 - Ellegant CSS loading animations & transitions.
 - More features to come as well.
@@ -25,5 +25,7 @@ This build is currently ongoing and in development. Stay tuned.
 - Slight and tedious shifts in color that nobody but Andrew will even care about.
 - New fonts? Probably? Maybe?
 - SSL encryption (which is not on a code level).
+- Use of frontend precompiled build tools.
+- Testing.
 
 Expect much of this site to look the same. Just better and cleaner code for me to maintain, with slightly updated frontend tools.
