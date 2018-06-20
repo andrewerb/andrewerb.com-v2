@@ -1,5 +1,4 @@
 # OS generated files #
-######################
 .DS_Store
 .DS_Store?
 ._*
@@ -11,7 +10,6 @@ Thumbs.db
 node_modules
 
 # Junk I leave around #
-#######################
 junk
 MISC
 todo.txt
