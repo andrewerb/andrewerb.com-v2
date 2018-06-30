@@ -1,4 +1,4 @@
-# OS generated files #
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -7,9 +7,10 @@
 ehthumbs.db
 Thumbs.db
 
+# yarn/node
 node_modules
 
-# Junk I leave around #
+# Junk files
 junk
 MISC
 todo.txt
