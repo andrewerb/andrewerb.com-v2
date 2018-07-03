@@ -7,10 +7,15 @@
     <title>Andrew Erb</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/wip.css">
     <link rel="icon" type="image/png" href="img/erb_a_block_icon-32px.png">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
 
     <style>
+        /* scss: color etc 
+        section:andrew-text ; section:lead-text
+        */
         html {
             margin: 0;
         }
@@ -29,20 +34,23 @@
             width: 90px;
             background-image: url("/img/logo/erb_a_block_logo.svg");
             background-size: 100% 100%;
+        }
+
+        .andrew-text, .lead-text{
+            display: inline-block;
+        }
 
         /* scss in page content, container, row, first of type .col = style of offset */
-        }
     </style>
 </head>
 
 <body>
-    <!-- 
-        Code available on github.com!
+    <!-- Code for this site is available github.com/andrewerb
     -->
     <div class="wrapper" style="/*visibility: hidden;*/">
         <header>
             <section class="container"> <!-- Set children of section elements to inivs but set logo-layer to vis; then rest on all loaded ; use timer to load all and/or load count separately logo vs page -->
-                <p>Add padding class to top here.</p>
+                <p>Add padding class to top here. Possible BS4 solution? Clear tag...</p>
                 <div class="row logo-row">
                     <div class="col-1 logo-field offset-1">
                         <a href="#" class="logo-link" class=""> </a>
@@ -110,8 +118,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <!--
-        emoji blurb
+    <!-- ( ^_^)／
     -->
 </body>
 </html>
