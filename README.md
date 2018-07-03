@@ -1,6 +1,6 @@
 # [andrewerb.com](http://www.andrewerb.com)
 
-My personal site, [andrewerb.com](www.andrewerb.com), V2.
+My website, [andrewerb.com](www.andrewerb.com), V2.
 
 Hosted on Github pages. Currently being rebuilt in Bootstrap 4.
 
@@ -27,5 +27,6 @@ This build is currently ongoing and in development. Stay tuned.
 - SSL encryption (which is not on a code level).
 - Use of frontend precompiled build tools.
 - Testing.
+- Webpack
 
 Expect much of this site to look the same. Just better and cleaner code for me to maintain, with slightly updated frontend tools.
