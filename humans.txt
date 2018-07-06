@@ -1,23 +1,23 @@
 /* Humans.txt */
 
-/* TEAM */
-	Author/Dev: Andrew Erb
+/* AUTHOR */
+	Dev: Andrew Erb
 	Twitter: @_andrewerb
-	Site: This one! ;)
+	Site: This one! :)
 	email: hello [at] andrewerb.com
 	Github: github.com/andrewerb
 	LinkedIn: linkedin.com/in/erbandrew
 	Location: NYC, US
 	
 /* SITE */
-	Updated: 03/27/2017 (Maybe more recently! IDK...check my github)
+	Updated: 07/2018 (Maybe more recently! IDK...check my github)
 	Language: English
 	Doctype: HTML5
-	IDE: Sublime Text, Adobe Illustrator
-	Standards: HTML5, CSS3, ES5, Python 2.7
-	Components: Twiter Bootstrap, Font Awesome, AngularJS
-	Software: Sublime Text, Vim, Git, iterm2, Zsh, Google Chrome, MacOS
-	Resources: Google Analytics, Google Font API, Hyde, Gulp
+	IDE: VisualStudio Code, NeoVim, Adobe Illustrator
+	Standards: HTML5, CSS3, ES5, Python 3
+	Components: Bootstrap, Font Awesome
+	Software: VisualStudio Code, Vim, Git, iterm2, ZSH, Google Chrome, MacOS
+	Resources: Google Analytics, Google Font API, Font Awesome, Hugo, Webpack
 	Hosting: GitHub Pages
 
 /* THANKS */
