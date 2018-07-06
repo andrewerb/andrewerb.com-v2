@@ -13,8 +13,13 @@
     
 
     <style>
+        /* SCSS ever section's row's first-of-type col gets offset min 1
+
+        */
+
         /* scss: color etc 
         section:andrew-text ; section:lead-text
+        font in ems
         */
         html {
             margin: 0;
@@ -22,6 +27,15 @@
         body {
             background-color: #E1F5FE; /*B3E5FC*/
             color: #2B527B;
+        }
+
+        header{
+            /*
+            */
+        }
+
+        nav{
+
         }
 
         .page-content {
@@ -42,21 +56,42 @@
 
         /* scss in page content, container, row, first of type .col = style of offset */
     </style>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Andrew Erb",
+            "email": "hello@andrewerb.com",
+            "description": "NYC Fullstack Software Engineer and Frontend Developer",
+            "url": "http://www.andrewerb.com"
+        }
+    </script>
 </head>
 
 <body>
-    <!-- Code for this site is available github.com/andrewerb
+    <!-- Code for this site is available at github.com/andrewerb
     -->
-    <div class="wrapper" style="/*visibility: hidden;*/">
+    <div class="wrapper" style="/*visibility: hidden;*/"> <!-- separate visibilit -->
         <header>
             <section class="container"> <!-- Set children of section elements to inivs but set logo-layer to vis; then rest on all loaded ; use timer to load all and/or load count separately logo vs page -->
+                <div class="row nav-row"> <!-- TOP NAV ROW PADDING -->
+                     <div class="offset-4">
+                        <nav>TESTING</nav>
+                        <p>Home Blog About Contact</p>
+                        </div>
+                        <!--  Home.
+                        -->
+                     </div>
+                    
                 <p>Add padding class to top here. Possible BS4 solution? Clear tag...</p>
-                <div class="row logo-row">
+                <div class="row logo-row"> <!-- PADDING ON TOP OF HERE -->
                     <div class="col-1 logo-field offset-1">
                         <a href="#" class="logo-link" class=""> </a>
                     </div>
                     <div class="col d-md-none mobile-nav-field">
                         Mobile nav icon here
+                        <!-- MOBILE NAV -->
                     </div>
                 </div>
                 
@@ -80,10 +115,10 @@
                 <div class="row">
                     <div class="col offset-1">
                         <p>
-                            Andrew Erb is a developer and designer based in NYC.
+                            Andrew Erb is a software engineer and UI designer, based in NYC.
                         </p>
                         <p>
-                            Get in touch.
+                            Get in touch
                         </p>
                     </div>
                 </div>
