@@ -7,52 +7,19 @@
     <title>Andrew Erb</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/wip.css">
+    <link rel="stylesheet" href="/css/wip.css">
     <link rel="icon" type="image/png" href="img/erb_a_block_icon-32px.png">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     
 
     <style>
         /* SCSS ever section's row's first-of-type col gets offset min 1
-
         */
 
         /* scss: color etc 
         section:andrew-text ; section:lead-text
         font in ems
         */
-        html {
-            margin: 0;
-        }
-        body {
-            background-color: #E1F5FE; /*B3E5FC*/
-            color: #2B527B;
-        }
-
-        header{
-            /*
-            */
-        }
-
-        nav{
-
-        }
-
-        .page-content {
-            color: #333; /* REMOVE */
-        }
-
-        .logo-link {
-            display: block;
-            height: 90px;
-            width: 90px;
-            background-image: url("/img/logo/erb_a_block_logo.svg");
-            background-size: 100% 100%;
-        }
-
-        .andrew-text, .lead-text{
-            display: inline-block;
-        }
 
         /* scss in page content, container, row, first of type .col = style of offset */
     </style>
@@ -73,15 +40,24 @@
     <!-- Code for this site is available at github.com/andrewerb
     -->
     <div class="wrapper" style="/*visibility: hidden;*/"> <!-- separate visibilit -->
-        <header>
+        <header><!--Move .container here and sections below - ?-->
             <section class="container"> <!-- Set children of section elements to inivs but set logo-layer to vis; then rest on all loaded ; use timer to load all and/or load count separately logo vs page -->
                 <div class="row nav-row"> <!-- TOP NAV ROW PADDING -->
-                     <div class="offset-4">
-                        <nav>TESTING</nav>
+                    <nav class="offset-8 col-4">
+                        <!--<ul>
+                            <li>Home
+                            </li>
+                            <li>Blog
+                            </li>
+                            <li>About
+                            </li>
+                            <li>Contact
+                            </li>
+                        </ul>-->
                         <p>Home Blog About Contact</p>
-                        </div>
-                        <!--  Home.
-                        -->
+                    </nav>
+                    <!--  Home.
+                    -->
                      </div>
                     
                 <p>Add padding class to top here. Possible BS4 solution? Clear tag...</p>
@@ -95,18 +71,6 @@
                     </div>
                 </div>
                 
-                <div class="row nav-space">
-                    <div class="col-2 offset-1">
-                        <p>Row min height. + Padding. ! Column padding ?</p>
-                        <p>Height padding / filler space. Class of padding top on this row?</p>
-                    </div>
-                    <div class="col-5 offset-2">
-                         d-sm-none
-                         <nav>Gome. About. Contact. Blog. Projects.</nav>
-                        <nav>Nav goes here</nav>
-                        <nav>More nav</nav>
-                    </div>
-                </div>
             </section>
         </header>
         
@@ -133,8 +97,8 @@
         <footer> <!-- section for rows vs section for containers ; likely doing containers ;; hyde blog section + article + ?? -->
             <section class="container">
                 <div class="row">
-                    <div class="col offset-1">
-                        <p>Copyright me and stuff.</p>
+                    <div class="col offset-1 footnote">
+                        <p>Copyright Andrew Erb.</p>
                     </div>
                 </div>
             </section>
