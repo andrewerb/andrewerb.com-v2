@@ -7,9 +7,12 @@
     <title>Andrew Erb</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/wip.css">
+
     <link rel="icon" type="image/png" href="img/erb_a_block_icon-32px.png">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <meta name="theme-color" content="#25AAE1">
     
 
     <style>
@@ -37,31 +40,34 @@
 </head>
 
 <body>
-    <!-- Code for this site is available at github.com/andrewerb
+    <!-- Code for this site is available at github.com/andrewerb/andrewerb.github.io
     -->
     <div class="wrapper" style="/*visibility: hidden;*/"> <!-- separate visibilit -->
         <header><!--Move .container here and sections below - ?-->
             <section class="container"> <!-- Set children of section elements to inivs but set logo-layer to vis; then rest on all loaded ; use timer to load all and/or load count separately logo vs page -->
-                <div class="row nav-row"> <!-- TOP NAV ROW PADDING -->
-                    <nav class="offset-8 col-4">
-                        <!--<ul>
-                            <li>Home
+                <section class="row nav-row"> <!-- TOP NAV ROW PADDING -->
+                    <nav class="offset-7 col-4 top-nav">
+                        <ul>
+                            <li><a href="#">Home
+                                </a>
                             </li>
-                            <li>Blog
+                            <li><a href="#">Blog
+                                </a>
                             </li>
-                            <li>About
+                            <li><a href="#">About
+                            </a>
                             </li>
-                            <li>Contact
+                            <li><a href="#">Contact
+                                </a>
                             </li>
-                        </ul>-->
-                        <p>Home Blog About Contact</p>
+                        </ul>
+                        <!--<p>Home Blog About Contact</p>-->
                     </nav>
                     <!--  Home.
                     -->
-                     </div>
-                    
-                <p>Add padding class to top here. Possible BS4 solution? Clear tag...</p>
-                <div class="row logo-row"> <!-- PADDING ON TOP OF HERE -->
+                </section>
+                
+                <section class="row logo-row"> <!-- PADDING ON TOP OF HERE -->
                     <div class="col-1 logo-field offset-1">
                         <a href="#" class="logo-link" class=""> </a>
                     </div>
@@ -69,7 +75,7 @@
                         Mobile nav icon here
                         <!-- MOBILE NAV -->
                     </div>
-                </div>
+                </section>
                 
             </section>
         </header>
@@ -77,29 +83,50 @@
         <main class="page-content">
             <section class="container">
                 <div class="row">
-                    <div class="col offset-1">
-                        <p>
-                            Andrew Erb is a software engineer and UI designer, based in NYC.
-                        </p>
-                        <p>
-                            Get in touch
-                        </p>
+                    <div class="col-9 offset-1">
+                        <h1 class="lead-text">
+                            <a href="#" class="andrew-name">Andrew Erb</a> is a software engineer and UI designer, based in <a href="https://youtu.be/8LmPBPWHJu4" target="_blank" title="Some info on NYC">NYC</a>.
+                        </h1>
                     </div>
                 </div>
                 <section class="row social-favicons">
-                    <div class="col offset-1">
-                        FAVICONS - SOCIAL MEDIA
+                    <div class="col-9 offset-1">
+                        <p>
+                            Get in touch:
+                        </p>
+                        <ul class="inline-nav social-nav">
+                            <li>
+                                <a href="https://www.github.com/andrewerb">
+                                    <i class="fa fa-github fa-lg"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/erbandrew">
+                                    <i class="fa fa-linkedin fa-lg"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:hello@andrewerb.com">
+                                    <i class="fa fa-envelope fa-md"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/_andrewerb">
+                                    <i class="fa fa-twitter fa-lg"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>email</p>
                     </div>
+                    
                 </section>
             </section>
         </main>
         
-        <footer> <!-- section for rows vs section for containers ; likely doing containers ;; hyde blog section + article + ?? -->
-            <section class="container">
-                <div class="row">
-                    <div class="col offset-1 footnote">
-                        <p>Copyright Andrew Erb.</p>
-                    </div>
+        <footer class="container"> <!-- section for rows vs section for containers ; likely doing containers ;; hyde blog section + article + ?? -->
+            <section class="row">
+                <div class="col-4 offset-7 footnote">
+                    <p>Content © Andrew Erb.</p>
                 </div>
             </section>
         </footer>

@@ -1,9 +1,28 @@
+/* scss, webpack, hugo, compress?, fonts, ems, flexbox, bs4, 404, nav
+*/
+
 html {
     margin: 0;
 }
 body {
-    background-color: #E1F5FE; /*B3E5FC*/
+    background-color: #E1F5FE; 
+    /*
+        #E1F5FE //original site
+        #B3E5FC //material?
+        #BFE3F9 //logo bg
+    */
     color: #2B527B;
+    font-family: 'Open Sans', sans-serif;
+    /* name highlight = #25AAE1
+    links color? */
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 header{
@@ -11,25 +30,52 @@ header{
 }
 
 nav{
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    line-style-type: none;
     /*font-decoration: none;
     text-spacing, line-spacing
     */
 }
 
-nav.main-nav{
-    /**/
+nav a, nav a:hover{
+    text-decoration: none;
 }
 
-nav.main-nav ul{
-
+nav.top-nav a{
+    color: #2B527B;
 }
 
-nav.main-nav ul li{
-
+nav.top-nav a:hover{
+    color: #25AAE1;
 }
 
-.page-content {
-    color: #333; /* REMOVE */
+nav.top-nav ul{
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    line-style-type: none;
+}
+
+nav.top-nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 12px; /** FIX - REMs + flex/grid + seo + font~**/
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 1px;
+}
+
+
+.inline-nav, .inline-nav ul, .inline-nav ul li{
+    display: inline-block;
+    line-style-type: none;
+    text-decoration: none;
+}
+
+.logo-row{
+    margin: 10px 0 30px 0;
 }
 
 .logo-link {
@@ -40,10 +86,51 @@ nav.main-nav ul li{
     background-size: 100% 100%;
 }
 
-.andrew-text, .lead-text{
+/*mobile nav*/
+/*.....*/
+
+/*index - main*/
+main{
+    letter-spacing: .03rem;
+}
+
+.page-content {
+    /*color: #333;*/ /* REMOVE */
+}
+
+.lead-text{
+    font-size: 2.2rem;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+    padding-bottom: 1.2rem;
+}
+
+.page-content .andrew-name{
+    /*font-size: 18px;*/
+    color: #25AAE1;
+}
+
+/*.page-content .andrew-name:hover{
+    
+}*/
+
+.andrew-text, .lead-text{ /**/
     display: inline-block;
 }
 
 section.social-favicons{
     padding: 15px 0 15px 0;
+}
+
+.social-nav{
+    /*consider mor euniversial li nav class for inline:
+    ie.  inline-nav
+    */
+}
+
+
+/*Footer*/
+footer .footnote{
+    font-size: .7rem;
+    padding-top: 3rem;
 }
