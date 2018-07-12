@@ -43,10 +43,6 @@ nav a, nav a:hover{
     text-decoration: none;
 }
 
-nav.top-nav a{
-    color: #2B527B;
-}
-
 nav.top-nav a:hover{
     color: #25AAE1;
 }
@@ -57,6 +53,7 @@ nav.top-nav ul{
     border: 0;
     line-style-type: none;
     list-style: none;
+    text-align: right;
 }
 
 nav.top-nav ul li{
@@ -68,6 +65,9 @@ nav.top-nav ul li{
     letter-spacing: 1px;
 }
 
+nav.top-nav a{
+    color: #2B527B;
+}
 
 .inline-nav, .inline-nav ul{
     display: inline-block;
@@ -145,6 +145,7 @@ ul.social-nav li{
 footer .footnote{
     font-size: .7rem;
     padding-top: 3rem;
+    text-align: right;
 }
 
 /* add: padding-top styles */
