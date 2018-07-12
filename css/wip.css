@@ -56,6 +56,7 @@ nav.top-nav ul{
     margin: 0;
     border: 0;
     line-style-type: none;
+    list-style: none;
 }
 
 nav.top-nav ul li{
@@ -68,10 +69,16 @@ nav.top-nav ul li{
 }
 
 
-.inline-nav, .inline-nav ul, .inline-nav ul li{
+.inline-nav, .inline-nav ul{
     display: inline-block;
-    line-style-type: none;
+    /*line-style-type: none;*/
     text-decoration: none;
+    list-style: none;
+}
+
+ul.inline-nav li{
+    display: inline;
+    list-style: none;
 }
 
 .logo-row{
@@ -123,14 +130,38 @@ section.social-favicons{
 }
 
 .social-nav{
+    padding: 15px 0 15px 0;
     /*consider mor euniversial li nav class for inline:
     ie.  inline-nav
     */
 }
 
+ul.social-nav li{
+    margin-right: 1.3rem;
+}
 
-/*Footer*/
+
+/** Footer **/
 footer .footnote{
     font-size: .7rem;
     padding-top: 3rem;
 }
+
+/* add: padding-top styles */
+
+/** Logo - SVG **/
+.logo-a-fg{
+
+}
+
+.logo-a-bg{
+
+}
+
+.logo-a-border{
+    
+}
+
+
+/*logo, svg, 404, blog, about*/
+
