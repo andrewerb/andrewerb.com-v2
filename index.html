@@ -51,7 +51,7 @@
     <div class="wrapper" style="/*visibility: hidden;*/"> <!-- separate visibilit -->
         <header class="container"> <!-- Set children of section elements to inivs but set logo-layer to vis; then rest on all loaded ; use timer to load all and/or load count separately logo vs page -->
             <section class="row nav-row"> <!-- TOP NAV ROW PADDING -->
-                <nav class="offset-6 col-5 top-nav">
+                <nav class="offset-4 col-7 d-none d-md-block top-nav">
                     <ul>
                         <li><a href="#">Home
                             </a>
@@ -66,19 +66,17 @@
                             </a>
                         </li>
                     </ul>
-                    <!--<p>Home Blog About Contact</p>-->
                 </nav>
-                <!--  Home.
-                -->
             </section>
             
-            <section class="row logo-row"> <!-- PADDING ON TOP OF HERE -->
-                <div class="col-1 logo-field offset-1">
+            <section class="row logo-row mobile-nav-row"> <!-- PADDING ON TOP OF HERE -->
+                <div class="col-6 offset-1 logo-field">
                     <a href="#" class="logo-link" class=""> </a>
                 </div>
-                <div class="col d-md-none mobile-nav-field">
-                    Mobile nav icon here
-                    <!-- MOBILE NAV -->
+                <div class="offset-2 col-3 d-md-none mobile-nav-field"><!-- MOBILE NAV -->
+                    <a href="#"><!--block+Position absolute. i element text-center, inline-block?-->
+                        <i class="fas fa-bars fa-2x"></i>
+                    </a>
                 </div>
             </section>       
         </header>
@@ -89,12 +87,12 @@
                     <h1 class="lead-text">
                         <a href="#" class="andrew-name">Andrew Erb</a> is a software engineer and UI designer, based in <a href="https://youtu.be/8LmPBPWHJu4" target="_blank" title="Some info on NYC">NYC</a>.
                     </h1>
+                    <p class="d-none currently-doing"><a href="http://"></a></p>
                 </div>
             </div>
             <section class="row social-contact">
                 <div class="col-9 offset-1">
-                    <p>
-                        Get in touch:
+                    <p><h6>Get in touch:</h6>
                     </p>
                     <p><a href="mailto:hello@andrewerb.com" aria-label="email: hello@andrewerb.com">
                         hello <i class="fas fa-at"></i> andrewerb.com</a>
