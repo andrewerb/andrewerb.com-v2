@@ -34,6 +34,7 @@ nav{
     margin: 0;
     border: 0;
     line-style-type: none;
+
     /*font-decoration: none;
     text-spacing, line-spacing
     */
@@ -41,10 +42,13 @@ nav{
 
 nav a, nav a:hover{
     text-decoration: none;
+    display: inline-block;
 }
 
 nav.top-nav a:hover{
-    color: #25AAE1;
+    /*color: #25AAE1;*/
+    color: #1B4D68;
+    
 }
 
 nav.top-nav ul{
@@ -131,15 +135,48 @@ section.social-favicons{
 
 .social-nav{
     padding: 15px 0 15px 0;
+    border: #000 1px solid; /* test */
     /*consider mor euniversial li nav class for inline:
     ie.  inline-nav
+    todo: grid, flexbox
     */
 }
 
-ul.social-nav li{
-    margin-right: 1.3rem;
+/*********** WIP!!!! social nav ************/
+ul.social-nav li, ul.social-nav li a, ul.social-nav li a:hover, ul.social-nav li a:visited{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
 }
 
+ul.social-nav li a i{
+    display: block;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    margin-top: 0;
+    color: #25AAE1;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+ul.social-nav li:first-of-type a i{
+    margin-left: 0;
+}
+
+ul.social-nav li a{
+    /**/
+}
+
+ul.social-nav li a:hover i{ /****/
+    transform: scale(1.2);
+    color: #1B4D68;
+    padding-bottom: .2rem;
+    border-bottom: #1B4D68 1px solid;
+}
+
+/************** END OF WIP SOCIAL ************/
 
 /** Footer **/
 footer .footnote{
