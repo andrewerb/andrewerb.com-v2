@@ -46,12 +46,6 @@ nav a, nav a:hover{
     display: inline-block;
 }
 
-nav.top-nav a:hover{
-    /*color: #25AAE1;*/
-    color: #1B4D68;
-
-}
-
 nav.top-nav ul{
     text-decoration: none;
     margin: 0;
@@ -59,6 +53,7 @@ nav.top-nav ul{
     line-style-type: none;
     list-style: none;
     text-align: right;
+    padding-left: 0;
 }
 
 nav.top-nav ul li{
@@ -71,7 +66,14 @@ nav.top-nav ul li{
 }
 
 nav.top-nav a{
-    color: #2B527B;
+    /*color: #2B527B;*/
+    color: #25AAE1;
+}
+
+nav.top-nav a:hover{
+    /*color: #25AAE1;*/
+    color: #1B4D68;
+
 }
 
 .inline-nav, .inline-nav ul{
@@ -136,7 +138,8 @@ section.social-favicons{
 
 .social-nav{
     padding: 15px 0 15px 0;
-    border: #000 1px solid; /* test */
+    /*border: #000 1px solid;*/ /* test */
+    height: 4rem;
     /*consider mor euniversial li nav class for inline:
     ie.  inline-nav
     todo: grid, flexbox
