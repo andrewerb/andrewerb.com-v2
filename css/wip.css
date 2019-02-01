@@ -56,7 +56,6 @@ nav.top-nav ul{
     text-decoration: none;
     margin: 0;
     border: 0;
-    line-style-type: none;
     list-style: none;
     text-align: right;
     padding-left: 0;
@@ -65,10 +64,10 @@ nav.top-nav ul{
 nav.top-nav ul li{
     text-decoration: none;
     display: inline;
-    padding-left: 14px; /** FIX - REMs + flex/grid + seo + font~**/
-    font-size: 14px;
+    padding-left: 16px; /** FIX - REMs + flex/grid + seo + font~ **/
+    font-size: /*14px*/ .84rem;
     line-height: 18px;
-    letter-spacing: 1px;
+    letter-spacing: .11rem/*1px*/;
 }
 
 nav.top-nav a{
@@ -99,11 +98,16 @@ ul.inline-nav li{
     margin: 10px 0 30px 0;
 }
 
+.logo-field {
+    padding: 0;
+}
+
 .logo-link {
     display: block;
     height: 90px;
     width: 90px;
-    background-image: url("/img/logo/erb_a_block_logo_edit.svg");
+    /*background-image: url("/img/logo/erb_a_block_logo_edit.svg");*/
+    background-image: url("/img/logo/erb_a_block_logo.svg");
     background-size: 100% 100%;
 }
 
@@ -120,7 +124,7 @@ main{
 }
 
 .lead-text{
-    font-size: 2.2rem;
+    font-size: 2.12rem;
     line-height: 1.5;
     letter-spacing: .1rem;
     padding-bottom: 1.2rem;
