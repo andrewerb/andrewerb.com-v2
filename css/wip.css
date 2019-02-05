@@ -114,7 +114,10 @@ ul.inline-nav li{
 }
 
 /*mobile nav*/
-/*.....*/
+.top-mobile-nav-icon{
+    display: block;
+    text-align: right;
+}
 
 /*index - main*/
 main{
