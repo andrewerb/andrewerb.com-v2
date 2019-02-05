@@ -33,7 +33,7 @@ a:hover {
 }
 
 header{
-    margin: 60px 0 60px 0;
+    margin: 70px 0 60px 0;
 }
 
 nav{
@@ -106,16 +106,20 @@ ul.inline-nav li{
 
 .logo-link {
     display: block;
-    /*background-image: url("/img/logo/erb_a_block_logo_edit.svg");*/
-
-    /*height: 90px;
+    background-size: 100% 100%;
+    background-image: url("/img/logo/erb_a_block_logo.svg");
+    height: 90px;
     width: 90px;
-    background-image: url("/img/logo/erb_a_block_logo.svg");*/
+}
+
+.logo-link-no-outline {
+    display: block;
+    /*background-image: url("/img/logo/erb_a_block_logo_edit.svg");*/
 
     background-size: 100% 100%;
     background-image: url("/img/logo/erb_a_logo.svg");
-    height: 70px/*60px*/;
-    width: 58px/*48px*/;
+    height: 70px;
+    width: 58px;
 
     /*
     logo-border */
