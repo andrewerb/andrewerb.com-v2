@@ -1,0 +1,6 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="200">
+    <path class="shadow_blue" id="shadow_bg" fill="#1B4D68" d="M140 59.552V19.927H40v39.625H20v139.625h40v-59.625h60v59.625h40V59.552h-20zm-20 60H60v-60h60v60z"/>
+    <path class="logo_blue" id="foreground_a" fill="#61A8E1" d="M120 39.625V0H20v39.625H0V179.25h40v-59.625h60v59.625h40V39.625h-20zm-20 60H40v-60h60v60z"/>
+</svg>
