@@ -45,6 +45,6 @@ Expect much of this site to look the same. Just better and cleaner code for me t
 
 ## Whom this repo is for
 
-This particular repo is primarily for myself, as I use github pages for hosting for my website. But of course, it's entirely publicly viewable for anybody's reference or curiosity.
+This particular repo is primarily for myself, as I use github pages for hosting for my website. Of course, it's publicly viewable for anybody's reference or curiosity.
 
 :v: :wink:
