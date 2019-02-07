@@ -127,8 +127,16 @@ ul.inline-nav li{
 
 /*mobile nav*/
 .top-mobile-nav-icon{
-    display: block;
+    display: inline-block;
     text-align: right;
+}
+
+.mobile-nav-overlay {
+    display: block;
+    position: fixed;
+    margin: 0 0 0 30%;
+    z-index: 10000;
+    background: #000;
 }
 
 /*index - main*/
