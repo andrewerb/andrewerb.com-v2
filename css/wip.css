@@ -126,17 +126,39 @@ ul.inline-nav li{
 }
 
 /*mobile nav*/
-.top-mobile-nav-icon{
+.mobile-nav-icon-field {
+    z-index: 1080;
+}
+
+.top-mobile-nav-icon {
     display: inline-block;
     text-align: right;
 }
 
 .mobile-nav-overlay {
+    /* add media queries for width */
     display: block;
     position: fixed;
-    margin: 0 0 0 30%;
-    z-index: 10000;
-    background: #000;
+    margin: 0;
+    padding: 65px 0 0 45px;
+    z-index: 1065; /* Bootstrap 4 modal z-index value +5 */
+    background: #25AAE1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    min-width: 76%;
+    text-align: left;
+}
+
+.mobile-nav-overlay nav ul {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mobile-nav-overlay nav ul li {
+    margin-bottom: 18px;
+    font-size: 1.8rem;
 }
 
 /*index - main*/
