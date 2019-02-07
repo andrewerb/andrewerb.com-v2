@@ -128,11 +128,13 @@ ul.inline-nav li{
 /*mobile nav*/
 .mobile-nav-icon-field {
     z-index: 1080;
+    text-align: right;
 }
 
 .top-mobile-nav-icon {
     display: inline-block;
     text-align: right;
+    color: #23527C;
 }
 
 .mobile-nav-overlay {
