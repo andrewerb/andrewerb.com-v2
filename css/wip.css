@@ -90,12 +90,12 @@ nav.top-nav a:hover{
     list-style: none;
 }
 
-ul.inline-nav li{
+ul.inline-nav li {
     display: inline;
     list-style: none;
 }
 
-.logo-row{
+.logo-row {
     /*margin: 10px 0 30px 0;*/
     margin-left: 0; /*for logo alignment*/
 }
@@ -125,7 +125,7 @@ ul.inline-nav li{
     logo-border */
 }
 
-/*mobile nav*/
+/* Mobile Nav */
 .mobile-nav-icon-field {
     z-index: 1080;
     text-align: right;
@@ -150,6 +150,16 @@ ul.inline-nav li{
     right: 0;
     min-width: 76%;
     text-align: left;
+
+    /* display: none; */
+    /* visibility: hidden; */
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+}
+
+.offcanvas-open {
+    visibility: visible;
 }
 
 .mobile-nav-overlay nav ul {
@@ -159,8 +169,16 @@ ul.inline-nav li{
 }
 
 .mobile-nav-overlay nav ul li {
-    margin-bottom: 18px;
+    margin-bottom: 22px;
     font-size: 1.8rem;
+}
+
+.mobile-nav-overlay nav ul li a {
+    color: #E03B8F /*#BE2C5B*/;
+}
+
+.mobile-nav-overlay nav ul li a.active {
+    color: #23527C;
 }
 
 /*index - main*/
