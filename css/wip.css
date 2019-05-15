@@ -137,7 +137,7 @@ ul.inline-nav li {
     color: #23527C;
 }
 
-.mobile-nav-overlay {
+.mobile-nav-offcanvas {
     /* add media queries for width */
     display: block;
     position: fixed;
@@ -162,22 +162,22 @@ ul.inline-nav li {
     visibility: visible;
 }
 
-.mobile-nav-overlay nav ul {
+.mobile-nav-offcanvas nav ul {
     padding: 0;
     text-decoration: none;
     list-style-type: none;
 }
 
-.mobile-nav-overlay nav ul li {
+.mobile-nav-offcanvas nav ul li {
     margin-bottom: 22px;
     font-size: 1.8rem;
 }
 
-.mobile-nav-overlay nav ul li a {
+.mobile-nav-offcanvas nav ul li a {
     color: #E03B8F /*#BE2C5B*/;
 }
 
-.mobile-nav-overlay nav ul li a.active {
+.mobile-nav-offcanvas nav ul li a.active {
     color: #23527C;
 }
 
