@@ -32,7 +32,7 @@
   "homepage": "https://github.com/andrewerb/andrewerb.github.io#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.0"
   },
   "devDependencies": {
     "bootstrap": "^4.0.0",
