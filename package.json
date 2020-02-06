@@ -31,11 +31,10 @@
   },
   "homepage": "https://github.com/andrewerb/andrewerb.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "4.4",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "bootstrap": "^4.0.0",
-    "http-server": "^0.11.1"
+    "http-server": "0.12.1"
   }
 }
